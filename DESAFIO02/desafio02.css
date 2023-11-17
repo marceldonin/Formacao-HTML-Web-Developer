@@ -1,0 +1,125 @@
+/*
+Theme Name: Base CSS para Desafio 02 - DIO.me
+Theme URI: https://github.com/marceldonin/Formacao-HTML-Web-Developer
+Author: Marcel Donin
+Author URI: https://github.com/marceldonin 
+Description: Criando seu Primeiro Site Completo com HTML
+Data: Novembro / 2023
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+/***** DECLARAÇÃO DE VARIAVEIS*/
+/***** ESTILOS GERAIS*/
+/***** BODY*/
+/***** HEADER*/
+/***** FOOTER*/
+/***** PÁGINA INICIAL*/
+/***** EXTRAS*/
+/***** @MEDIA*/
+
+
+/**/
+
+
+html, body {
+    margin: 0 auto;
+}
+body {
+    background-color: #BDDAEA;
+    background-color:;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1000px;
+    display:contents;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 1000%;
+}
+.menu {
+    width: 20%;
+    background-color: #BDDAEA;
+    padding: 0px 0px 0px;
+}
+.header {
+    /*background-color: rgb(222, 20, 240);*/
+    min-height: 50px;
+}
+.content {
+    background-color: white;
+    min-height: 400px;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 600;
+  
+    
+    
+}
+.footer {
+    background-color:#BDDAEA;
+    min-height: 80px;
+    padding: 5px 0px;
+    
+}
+.box1 {
+    /* display:contents; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
+     width: 90%;
+     padding-top: 5%;
+   
+}
+.box2 {
+    /* display:contents; */
+    /* border: 5px solid darkblue; */
+    width: 40%;
+    justify-self: center;
+    padding-top: 5%;
+}
+
+.box3 {
+    text-align-last:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
+     width: 90%;
+   
+}
+
+.box4{
+    display:contents; 
+ 
+}
+
+.box5 {
+    display:contents; 
+    text-align-last:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
+     width: 50%;
+}
+
+.flex1 {
+    display: flex;
+    
+}
+
+.tabela {
+    width: 70%;
+
+}
+
+.titulotabela {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.inputz {
+    font-size: 25px;
+    border: 5px solid darkblue;
+    width: 80%;
+}

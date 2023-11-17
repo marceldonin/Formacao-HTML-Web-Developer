@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+</head>
+<body>
+    <form onsubmit="" autocomplete="off" method="get" action="#">
+
+        <label>Nome: </label><input type="text" name="name"/><br><br>
+        <label>Cargo: </label>
+       
+        <select name="role" multiple>
+            <option value="">Selecione seu cargo</option>
+            <option selected value="junior">Jurior</option>
+            <option value="senior">Senior</option>
+            <option value="expertice">Especialista</option>
+            <option value="profissional">Profissional</option>
+
+        </select><br><br>
+
+        <label>Assunto: </label><input type="text" name="subject"><br><br>
+        <label>Mensagem: </label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <hr>
+        <button type="submit">Enviar</button>
+        <hr>
+
+
+    </form>
+</body>
+</html>
