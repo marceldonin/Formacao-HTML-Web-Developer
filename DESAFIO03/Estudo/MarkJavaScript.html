@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark e JavaScript</title>
+</head>
+<body>
+    <input type="text" id="busca"><br>
+    <p id="descricao">
+        Você quer começar no mundo do Front-end? Então essa é a Formação perfeita para você começar a sua jornada: entenda como trabalhar com HTML, a base para criar suas primeiras páginas WEB! Aprenda na prática a como estruturar a marcação da sua página e como funciona cada tag, conheça os elementos semânticos e outras boas práticas na hora de construir sua primeira página.    
+    </p>
+
+    <script>
+        var searchField = document.getElementById('busca') ;
+        var descriptionObject = document.getElementById('descricao');
+        var textToSearch = descriptionObject.innerHTML;
+
+        function realizaBusca (busca) {
+            const regex = RegExp (`(${busca})(?!(.(?!<mark>))*</mark>)+`, 'ig');
+            const ocurrences = textToSearch.match(regex);
+            descriptionObject.innerHTML = textToSearch.replace(regex, `<mark>${busca}</mark>`)
+        }
+
+
+        searchField.addEventListener('keyup',(e) => realizaBusca(e.target.value));
+    </script>
+    
+</body>
+</html>

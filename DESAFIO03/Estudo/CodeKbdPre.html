@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code, kbd e pre</title>
+
+    <style>
+
+        kbd {
+            border: solid 1px black;
+
+        }
+        pre {
+            background: #f1f1f1;
+
+        }
+        pre > code {
+            color: red;
+        }
+
+        code {
+            color: blue;
+        }
+
+        pre > p {
+            font-style: italic;
+            color: gray;
+            padding-left: 30px;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <p>Para copiar esta informação, pressione <kbd>CTRL</kbd> + <kbd>C</kbd></p>
+
+    <p>Para trocaro fundo de um elemento, utilize <code>background-color:blue;</code></p>
+
+    <p>Comando completo de alterar cor de fundo</p>
+    <pre>
+        <p>//Insira os códigos a partir desse ponto</p>
+        <code>
+            code {
+                background-color: #f1f1f1;
+                color:red;
+            }
+
+
+        </code>
+    </pre>
+
+</body>
+</html>

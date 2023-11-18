@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title title="Tags HTML5">Tags HTML5</title>
+
+
+    <style>
+        nav ul {
+          display:flex;
+          list-style:none;
+          margin: 0;
+          border: 5px;
+          border-color: blue;
+        }
+
+        nav ul li a {
+            text-decoration:none;
+            color: red;
+            padding: 50px 105px;
+            border-radius: 5px;
+            
+        }
+        
+        nav ul li a:hover {
+            color:white;
+            background: black;
+          
+        }
+
+      
+        blockquote {
+            background: #f5f5f5;
+            padding: 15px;
+            margin-left: 0px;
+            border-left: red solid 5px;
+            
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li>
+                    <img height="80" src="logoNCON01P.png" alt="Imagem com um texto decorativo para ilustrar a logomarco daquela empresa de nome Xis ou Tal" href="#">
+                </li>
+                <li><a title="Página principal - HOME" href="#">HOME</a></li>
+               
+                <li><a title="Página dedicada a informar sobre a instituição ou sobre o autor - ABOUT" href="#">ABOUT</a></li>
+                
+                <li><a title="Página dedicada a informar sobre todos os serviços diponiveis que o autor dispoem - SERVICES" href="#">SERVICES</a></li>
+                
+                <li><a title="Página dedicada a informar com as últimas noticias da instituição ou do autor - NEWS" href="#">NEWS</a></li>
+                
+                <li><a title="Página dedicada a informar a forma de entrar em contato com a Instituição ou ao Autor - CONTACT" href="#">CONTACT</a></li>
+
+            </ul>
+            
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section>
+            <h1 title="Usando Tags com Semantica e Acessibilidade">Usando Tags com Semantica e Acessibilidade</h1>
+        </section>
+
+        <article>
+            <h1>Descoberta de Vida inteligente Fazendo esse Curso de HTML</h1>
+            <p>Artigo publicado em <time pubdate>21/01/2022 19:00</time> </p>
+            <p>Segundos fontes internas, sabemos que, tudo se inicia assim com o <q cite="https://www.dio.me">HTML e depois vem o CSS e por fim vem o JavaScript</q> para fechar com o conhecimento!</p>
+            <blockquote cite="https://wikipedia.com">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed quos ad dolores beatae, quas accusantium est excepturi sint dolorem molestias minima cumque magni, animi quasi laudantium eligendi. Fugiat, numquam.</p>
+            </blockquote>
+
+
+
+
+        </article>
+
+
+
+
+    </main>
+
+    <footer>
+        <address title="Avenida Borges de Medeiros, nº 1000 - Bairro Centro - Gramado - RS - Brasil">Avenida Borges de Medeiros, nº 1000 - Bairro Centro - Gramado - RS - Brasil</address>
+    </footer>
+</body>
+</html>
