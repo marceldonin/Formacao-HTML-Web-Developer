@@ -5,4 +5,4 @@ Formação HTML Web Developer
 
 * [DESAFIO 02](https://marceldonin.github.io/Formacao-HTML-Web-Developer/desafio02_01home.html)
 
-* [DESAFIO 03](#)
+* [DESAFIO 03](https://marceldonin.github.io/Formacao-HTML-Web-Developer/DESAFIO03_01home.html)
